@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('https://at.alicdn.com/t/font_978795_x130wetfkvs.ttf?t=1545479243273') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e8bd";
+}
+
+.icon-close:before {
+  content: "\e61f";
+}

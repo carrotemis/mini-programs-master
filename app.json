@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/change/change",
+    "pages/history/history"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#9BD770",
+    "navigationBarTextStyle": "#17233d",
+    "navigationBarTitleText": "遍历翻译",
+    "backgroundColor": "#2b85e4",
+    "backgroundTextStyle": "#f8f8f9"
+  },
+  "tabBar": {
+    "color": "#375F1B",
+    "selectedColor": "#9BD770",
+    "backgroundColor": "#f8f8f9",
+    "borderStyle": "#2b85e4",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "遍历"
+      }
+    ]
+  }
+}

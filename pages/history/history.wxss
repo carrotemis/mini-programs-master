@@ -1,0 +1,25 @@
+.page-history {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #c5c8ce;
+  padding: 20rpx 40rpx;
+  border-bottom: 1rpx solid beige;
+  font-size: 28rpx;
+}
+
+.item {
+  padding: 20rpx 40rpx;
+  border-top: 1rpx solid beige;
+  display: flex;
+  flex-direction: column;
+  color: #FF355E;
+}
+
+.item .query {
+  color: #8995a1;
+}
+

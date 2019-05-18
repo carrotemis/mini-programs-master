@@ -1,0 +1,10 @@
+<!--change.wxml-->
+<view class="container">
+  <view class='page-change'>
+    <view class='title'>翻译成</view>
+    <view class="item" data-name="{{language.name}}" data-lang="{{language.lang}}" data-index='{{index}}' wx:for='{{langList}}' wx:key='index' wx:for-item="language" bindtap='onTapItem' hover-class='view-hover'>
+      <text class='text'>{{language.name}}</text>
+      <icon type="success_no_circle" size="15" color="#9BD770" class='icon-currect' wx-if="{{index===curLang.index}}" />
+    </view>
+  </view>
+</view>

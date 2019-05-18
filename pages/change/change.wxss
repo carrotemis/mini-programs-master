@@ -1,0 +1,26 @@
+.page-change {
+  background-color: #fff;
+}
+
+.title {
+  color: #c5c8ce;
+  padding: 20rpx 40rpx;
+  border-bottom: 1rpx solid beige;
+  font-size: 28rpx;
+}
+
+.item {
+  padding: 20rpx 40rpx;
+  border-top: 1rpx solid beige;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.item .text {
+  flex: 1;
+}
+
+.item .icon-currect{
+  padding-top: 7rpx;
+}

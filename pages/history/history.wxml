@@ -1,0 +1,12 @@
+<!--history.wxml-->
+<view class="container">
+  <view class='page-history'>
+    <view class='title'>遍历近{{historyLength}}次翻译记录</view>
+    <scroll-view scroll-y="true">
+      <view class="item" wx:for='{{history}}' wx:key='index' bindtap='onTapItem' data-query="{{item.query}}" data-langId="{{item.langIndex}}" hover-class='view-hover'>
+        <text class='query'>{{item.query}}</text>
+        <text class='translation'>{{item.translation}}</text>
+      </view>
+      </scroll-view>
+  </view>
+</view>
